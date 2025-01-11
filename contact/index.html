@@ -6,12 +6,24 @@
     <title>Contact</title>
 </head>
 <body>
-    <h>Contact</h>
     <nav>
         <a href="../index.html">Home</a>
         <a href="../projects/index.html">Projects</a>
         <a href="../contact/index.html">Contact</a>
         <a href="https://github.com/kevinmyo" target="_blank">GitHub Profile</a>
     </nav>
+    <h>Contact</h>
+    <p>Fill out the form below to send me an email:</p>
+    <form action="mailto:amyo@ucsd.edu" method="POST" enctype="text/plain">
+        <label for="email">Your Email:</label>
+        <input type="email" id="email" name="email" value="example@example.com" required>
+        <br><br>
+
+        <label for="body">Message:</label>
+        <textarea id="body" name="body">Your Message</textarea>
+        <br><br>
+
+        <button type="submit">Send</button>
+    </form>
 </body>
 </html>
