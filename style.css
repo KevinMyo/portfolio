@@ -7,15 +7,22 @@ body {
     margin-inline: max(1em, (100% - 100ch) / 2);
     margin-inline: auto;
     padding: 1em;
-    /*nav ul, nav ul li {
-        display: contents;
-      }*/
+    :root {
+        --color-accent: oklch(65% 50% 0);
+      }
+    html {
+        accent-color: var(--color-accent);
+      }
     nav {
         display: flex;
         justify-content: space-around;
         align-items: center;
         margin-bottom: 1em;
         border-bottom: 1px solid oklch(80% 3% 200);
+      }
+    
+    nav ul li {
+        display: contents;
       }
       
     nav a {
@@ -25,21 +32,15 @@ body {
         text-decoration: none;
         color: inherit;
       }
-      
-    .current {
-        border-bottom: 0.4em solid oklch(80% 3% 200);
-        padding-bottom: 0.1em;
-      }
-    nav a:hover {
+    
+      nav a:hover {
         border-bottom: 0.4em solid var(--color-accent); /* Accent color for hover */
         background-color: oklch(from var(--color-accent) 95% 5% h); /* Light hue background */
       }
-    :root {
-        --color-accent: oklch(65% 50% 0); /* Define a custom accent color */
-      }
-      
-    html {
-        accent-color: var(--color-accent); /* Make it accessible throughout */
+    
+    .current {
+        border-bottom: 0.4em solid oklch(80% 3% 200);
+        padding-bottom: 0.1em;
       }
 
   }
