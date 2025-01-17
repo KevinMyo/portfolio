@@ -10,7 +10,7 @@ body {
     nav ul, nav ul li {
         display: contents;
       }
-      nav {
+    nav {
         display: flex;
         justify-content: space-around;
         align-items: center;
@@ -18,7 +18,7 @@ body {
         border-bottom: 1px solid oklch(80% 3% 200);
       }
       
-      nav a {
+    nav a {
         flex: 1;
         text-align: center;
         padding: 0.5em;
@@ -26,19 +26,19 @@ body {
         color: inherit;
       }
       
-      .current {
+    .current {
         border-bottom: 0.4em solid oklch(80% 3% 200);
         padding-bottom: 0.1em;
       }
-      nav a:hover {
+    nav a:hover {
         border-bottom: 0.4em solid var(--color-accent); /* Accent color for hover */
         background-color: oklch(from var(--color-accent) 95% 5% h); /* Light hue background */
       }
-      :root {
+    :root {
         --color-accent: oklch(65% 50% 0); /* Define a custom accent color */
       }
       
-      html {
+    html {
         accent-color: var(--color-accent); /* Make it accessible throughout */
       }
 
