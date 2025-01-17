@@ -15,7 +15,7 @@ body {
       }
     nav {
         display: flex;
-        justify-content: space-around;
+        justify-content: space-evenly;
         align-items: center;
         margin-bottom: 1em;
         border-bottom: 1px solid oklch(80% 3% 200);
@@ -34,8 +34,8 @@ body {
       }
     
       nav a:hover {
-        border-bottom: 0.4em solid var(--color-accent); /* Accent color for hover */
-        background-color: oklch(from var(--color-accent) 95% 5% h); /* Light hue background */
+        border-bottom: 0.4em solid var(--color-accent);
+        background-color: oklch(from var(--color-accent) 95% 5% h);
       }
     
     .current {
