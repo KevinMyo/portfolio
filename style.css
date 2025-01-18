@@ -20,7 +20,12 @@ nav {
     margin-bottom: 1em;
     border-bottom: 1px solid oklch(80% 3% 200);
     }
-    
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: contents;
+    }   
 nav ul li {
     display: contents;
     }
@@ -31,7 +36,8 @@ nav a {
     padding: 0.5em;
     text-decoration: none;
     color: inherit;
-      }
+    transition: background-color 0.3s ease, border-bottom-color 0.3s ease;
+    }
     
 nav a:hover {
     border-bottom: 0.4em solid var(--color-accent);
@@ -41,5 +47,6 @@ nav a:hover {
 .current {
     border-bottom: 0.4em solid oklch(80% 3% 200);
     padding-bottom: 0.1em;
+    font-weight: bold;
     }
 
