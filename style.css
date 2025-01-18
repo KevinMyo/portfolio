@@ -4,6 +4,7 @@
 html {
     accent-color: var(--color-accent);
   }
+
 body {
     /* Set line height to 1.5 times the font size
          and use the OS’s UI font as the website font
@@ -86,4 +87,65 @@ button {
 button:hover {
   background-color: #0056b3;
 }
+
+.projects {
+    display: grid; /* Enable Grid layout */
+    grid-template-columns: repeat(auto-fill, minmax(15em, 1fr)); /* Flexible columns */
+    gap: 1em; /* Add spacing between articles */
+    margin-top: 2em; /* Add spacing above the grid */
+    align-items: start; /* Align items to the top */
+}
+  
+  /* Individual project articles */
+.projects article {
+    display: grid; /* Enable subgrid layout */
+    grid-template-rows: subgrid; /* Align content across rows */
+    grid-row: span 3; /* Span 3 rows */
+    background-color: #f9f9f9; /* Light background for articles */
+    border: 1px solid #ccc; /* Add a subtle border */
+    border-radius: 8px; /* Add rounded corners */
+    padding: 1em; /* Add padding inside each article */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add a soft shadow */
+}
+  
+  /* Article headings */
+.projects h2 {
+    margin: 0; /* Remove default margins */
+    font-size: 1.25em; /* Adjust heading size */
+    line-height: 1.2; /* Adjust line height for better spacing */
+}
+  
+  /* Article images */
+.projects img {
+    max-width: 100%; /* Ensure images scale properly */
+    height: auto; /* Maintain aspect ratio */
+    margin-top: 0.5em;
+}
+  
+  /* Article paragraphs */
+.projects p {
+    margin-top: 0.5em; /* Add spacing above the paragraph */
+    line-height: 1.5; /* Improve readability */
+}
+
+.projects article {
+    display: grid;
+    grid-template-rows: subgrid;
+    grid-row: span 3;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    line-height: 1.1; /* Smaller leading for headings */
+    text-wrap: balance; /* Prevent uneven lines */
+}
+
+h1 {
+    font-size: 4em; /* Make <h1> significantly larger */
+    margin-bottom: 0.5em; /* Add spacing below <h1> */
+}
+  
+  h2 {
+    font-size: 1.5em; /* Adjust <h2> size */
+}
+
 
