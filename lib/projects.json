@@ -1,62 +1,74 @@
 [
     {
-        "title": "Lorem ipsum dolor sit.",
-        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, excepturi earum. Consequuntur, molestias nemo! Odio repellat animi mollitia, autem dolorum qui sapiente eveniet alias quia aliquid est similique, rem quam."
+      "title": "Interactive Data Visualization",
+      "year": 2024,
+      "image": "https://dsc106.com/labs/lab02/images/empty.svg",
+      "description": "A project exploring interactive visualizations using JavaScript and D3.js."
     },
     {
-        "title": "Pariatur quibusdam voluptas corrupti?",
-        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "Nemo, voluptatibus perferendis alias quae dicta quisquam porro laborum, aperiam exercitationem at pariatur suscipit, aliquid sint cum. Totam ratione doloremque rerum nobis facilis, asperiores eaque id, fugiat molestiae facere eos!"
+      "title": "Responsive Web Design",
+      "year": 2023,
+      "image": "https://dsc106.com/labs/lab02/images/empty.svg",
+      "description": "A mobile-first website showcasing best practices in responsive design."
     },
     {
-        "title": "Nemo laudantium pariatur quibusdam.",
-        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "Iste, est alias enim tenetur debitis deleniti impedit sapiente aut distinctio velit totam vitae unde placeat, veritatis, illum cumque odit aliquam quibusdam ab sit! Consequatur molestiae dolorem magnam harum quas."
+      "title": "GitHub API Integration",
+      "year": 2022,
+      "image": "https://dsc106.com/labs/lab02/images/empty.svg",
+      "description": "A project using GitHub's API to display user stats dynamically."
     },
     {
-        "title": "Omnis laborum illo qui!",
-        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "A esse, beatae unde quibusdam autem accusamus similique voluptate quisquam perferendis commodi voluptatem libero natus vero perspiciatis temporibus nostrum voluptatibus cupiditate explicabo! Recusandae suscipit rerum error corrupti consequuntur reprehenderit et."
+      "title": "Machine Learning Dashboard",
+      "year": 2021,
+      "image": "https://dsc106.com/labs/lab02/images/empty.svg",
+      "description": "A dashboard that visualizes ML model performance metrics."
     },
     {
-        "title": "Earum unde cupiditate soluta!",
-        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "Explicabo aspernatur praesentium sed iure dolore vitae veniam, quos excepturi facilis soluta repellendus dolor, incidunt necessitatibus voluptate quae assumenda vero eveniet. Asperiores laudantium beatae odit, pariatur incidunt libero minus magni."
+      "title": "Portfolio Website",
+      "year": 2020,
+      "image": "https://dsc106.com/labs/lab02/images/empty.svg",
+      "description": "A personal portfolio showcasing my work and skills."
     },
     {
-        "title": "Repudiandae voluptate illo suscipit?",
-        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "Ipsa quis et obcaecati, architecto praesentium eveniet inventore? Deserunt hic magnam tenetur repudiandae vitae ea perferendis ab doloremque illum a. Architecto veritatis vero dolor quae et sequi asperiores beatae magni?"
+      "title": "Social Media Sentiment Analysis",
+      "year": 2019,
+      "image": "https://dsc106.com/labs/lab02/images/empty.svg",
+      "description": "A Python project analyzing sentiment from Twitter data."
     },
     {
-        "title": "Libero, expedita debitis. Dolorem.",
-        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "Voluptate nam debitis officiis sunt, architecto corrupti hic excepturi illum obcaecati accusantium accusamus optio mollitia? Quidem, aliquid iusto dolore consequuntur fugit perferendis, voluptates repudiandae ex nemo impedit similique in temporibus."
+      "title": "Augmented Reality App",
+      "year": 2018,
+      "image": "https://dsc106.com/labs/lab02/images/empty.svg",
+      "description": "A project exploring AR features using WebXR."
     },
     {
-        "title": "Itaque rem repellendus facere!",
-        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "Saepe reprehenderit voluptatum quo tempora voluptas doloremque dolore, sit culpa? Reprehenderit perspiciatis voluptatem illo, explicabo eos dignissimos corrupti. Facere autem accusamus totam temporibus. Ullam nesciunt vel dolores molestias debitis minus!"
+      "title": "IoT Smart Home System",
+      "year": 2017,
+      "image": "https://dsc106.com/labs/lab02/images/empty.svg",
+      "description": "An IoT-based system that automates smart home devices."
     },
     {
-        "title": "Sapiente praesentium ipsam hic.",
-        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "Blanditiis quaerat ea ducimus, ipsa earum magnam sapiente necessitatibus impedit amet perferendis cumque. Accusantium ab, quisquam ut neque eveniet accusamus aspernatur doloremque voluptatibus ex ullam? Vero debitis dignissimos optio ratione?"
+      "title": "Blockchain Voting System",
+      "year": 2016,
+      "image": "https://dsc106.com/labs/lab02/images/empty.svg",
+      "description": "A blockchain-based e-voting system for secure elections."
     },
     {
-        "title": "Libero mollitia eveniet quaerat.",
-        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "Iusto, cumque. Similique obcaecati, animi tempore et dolorum laudantium hic iste quia pariatur corporis distinctio ab, voluptatem quam velit nemo sequi tempora molestias harum quae soluta sunt quos asperiores! Magnam."
+      "title": "AI Chatbot",
+      "year": 2015,
+      "image": "https://dsc106.com/labs/lab02/images/empty.svg",
+      "description": "A chatbot trained to answer frequently asked questions using NLP."
     },
     {
-        "title": "Distinctio nesciunt voluptas consequuntur.",
-        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "Dignissimos, numquam ipsum eveniet, ex voluptate amet dolorem ipsa necessitatibus adipisci velit, iure impedit vitae modi nostrum reiciendis aliquid molestiae! Consequuntur, reiciendis maxime! Architecto doloribus similique laudantium, suscipit distinctio corporis?"
+      "title": "3D Game Development",
+      "year": 2014,
+      "image": "https://dsc106.com/labs/lab02/images/empty.svg",
+      "description": "A small 3D game developed using Unity and C#."
     },
     {
-        "title": "Vel similique vitae magni?",
-        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "Voluptate magnam dolores ab provident tenetur possimus odio sint nemo, ipsum recusandae, temporibus pariatur illo labore veritatis ducimus quod obcaecati cum? Consequatur asperiores voluptatem inventore quos magni modi quibusdam nobis."
+      "title": "Cybersecurity Awareness Campaign",
+      "year": 2013,
+      "image": "https://dsc106.com/labs/lab02/images/empty.svg",
+      "description": "An online campaign designed to educate users on cybersecurity best practices."
     }
-]
+  ]
