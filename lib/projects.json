@@ -2,72 +2,72 @@
     {
       "title": "Interactive Data Visualization",
       "year": 2024,
-      "image": "https://dsc106.com/labs/lab02/images/empty.svg",
+      "image": "https://www.mygreatlearning.com/blog/wp-content/uploads/2019/09/What-is-data-science-2.jpg",
       "description": "A project exploring interactive visualizations using JavaScript and D3.js."
     },
     {
       "title": "Responsive Web Design",
-      "year": 2023,
+      "year": 2024,
       "image": "https://dsc106.com/labs/lab02/images/empty.svg",
       "description": "A mobile-first website showcasing best practices in responsive design."
     },
     {
       "title": "GitHub API Integration",
-      "year": 2022,
+      "year": 2024,
       "image": "https://dsc106.com/labs/lab02/images/empty.svg",
       "description": "A project using GitHub's API to display user stats dynamically."
     },
     {
       "title": "Machine Learning Dashboard",
-      "year": 2021,
+      "year": 2023,
       "image": "https://dsc106.com/labs/lab02/images/empty.svg",
       "description": "A dashboard that visualizes ML model performance metrics."
     },
     {
       "title": "Portfolio Website",
-      "year": 2020,
+      "year": 2023,
       "image": "https://dsc106.com/labs/lab02/images/empty.svg",
       "description": "A personal portfolio showcasing my work and skills."
     },
     {
       "title": "Social Media Sentiment Analysis",
-      "year": 2019,
+      "year": 2023,
       "image": "https://dsc106.com/labs/lab02/images/empty.svg",
       "description": "A Python project analyzing sentiment from Twitter data."
     },
     {
       "title": "Augmented Reality App",
-      "year": 2018,
+      "year": 2023,
       "image": "https://dsc106.com/labs/lab02/images/empty.svg",
       "description": "A project exploring AR features using WebXR."
     },
     {
       "title": "IoT Smart Home System",
-      "year": 2017,
+      "year": 2022,
       "image": "https://dsc106.com/labs/lab02/images/empty.svg",
       "description": "An IoT-based system that automates smart home devices."
     },
     {
       "title": "Blockchain Voting System",
-      "year": 2016,
+      "year": 2022,
       "image": "https://dsc106.com/labs/lab02/images/empty.svg",
       "description": "A blockchain-based e-voting system for secure elections."
     },
     {
       "title": "AI Chatbot",
-      "year": 2015,
+      "year": 2022,
       "image": "https://dsc106.com/labs/lab02/images/empty.svg",
       "description": "A chatbot trained to answer frequently asked questions using NLP."
     },
     {
       "title": "3D Game Development",
-      "year": 2014,
+      "year": 2021,
       "image": "https://dsc106.com/labs/lab02/images/empty.svg",
       "description": "A small 3D game developed using Unity and C#."
     },
     {
       "title": "Cybersecurity Awareness Campaign",
-      "year": 2013,
+      "year": 2021,
       "image": "https://dsc106.com/labs/lab02/images/empty.svg",
       "description": "An online campaign designed to educate users on cybersecurity best practices."
     }

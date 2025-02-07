@@ -157,3 +157,82 @@ nav {
     font-family: inherit;
   }
 
+  .projects {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.project-details {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.project-year {
+    font-family: Baskerville, serif;
+    font-size: 14px;
+    color: gray;
+    font-variant-numeric: oldstyle-nums;
+}
+
+.chart-container {
+    display: flex;
+    align-items: center;
+    /* gap: 20px; */
+    justify-content: center;
+    padding: 20px;
+}
+
+#projects-pie svg {
+    max-width: 20em;
+    margin-block: 2em;
+    display: block;
+    overflow: visible;
+}
+
+.legend {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(9em, 1fr));
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    list-style: none;
+}
+
+.legend li {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.legend .swatch {
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+    background-color: var(--color);
+    border-radius: 50%;
+}
+
+.searchBar {
+    display: block;
+    width: 100%;
+    max-width: 400px;
+    margin: 10px auto;
+    padding: 10px;
+}
+
+.pie-slice {
+    cursor: pointer;
+    transition: opacity 0.3s ease;
+}
+
+.pie-slice:hover {
+    opacity: 0.7;
+}
+
+.selected {
+    stroke: black;
+    stroke-width: 2px;
+}

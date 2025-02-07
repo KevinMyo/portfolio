@@ -21,7 +21,8 @@ import { fetchJSON, renderProjects, fetchGitHubData } from './global.js';
         }
 
         projectsContainer.innerHTML = ''; 
-        latestProjects.forEach(project => renderProjects(project, projectsContainer, 'h2'));
+        // latestProjects.forEach(project => renderProjects(project, projectsContainer, 'h2'));
+        renderProjects(latestProjects, projectsContainer, 'h2');
 
     } catch (error) {
         console.error("Error fetching or rendering projects:", error);

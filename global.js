@@ -66,14 +66,13 @@ function setColorScheme(colorScheme) {
   select.addEventListener('input', (event) => {
     const colorScheme = event.target.value;
     setColorScheme(colorScheme);
-    localStorage.colorScheme = colorScheme; // Save to localStorage
-  });
-
+    localStorage.colorScheme = colorScheme;
+        });
+  
   export async function fetchJSON(url) {
     try {
-        // Fetch the JSON file from the given URL
         const response = await fetch(url);
-        console.log(response); // Inspect the response object
+        console.log(response);
 
         if (!response.ok) {
             throw new Error(`Failed to fetch projects: ${response.statusText}`);
@@ -98,25 +97,42 @@ export function renderProjects(project, containerElement, headingLevel = 'h2') {
         return;
     }
 
-    // containerElement.innerHTML = '';
+    containerElement.innerHTML = '';
 
-    const article = document.createElement('article');
+    project.forEach(project => {
+        const article = document.createElement('article');
+        article.innerHTML = `
+            <${headingLevel}>${project.title}</${headingLevel}>
+            <img src="${project.image}" alt="${project.title}">
+            <div class="project-details">
+                <p>${project.description}</p>
+                <p class="project-year">${project.year}</p>
+            </div>
+        `;
+        containerElement.appendChild(article);
+    });}
 
-    // Validate the heading level.
-    const validHeadingLevels = ['h1', 'h2', 'h3', 'h4', 'h5', 'h6'];
-    if (!validHeadingLevels.includes(headingLevel)) {
-        console.warn(`Invalid heading level "${headingLevel}" provided. Defaulting to h2.`);
-        headingLevel = 'h2';
-    }
+//     const article = document.createElement('article');
+//     article.classList.add('project-item');
 
-    article.innerHTML = `
-        <${headingLevel}>${project.title}</${headingLevel}>
-        <img src="${project.image}" alt="${project.title}">
-        <p>${project.description}</p>
-    `;
+//     // Validate the heading level.
+//     const validHeadingLevels = ['h1', 'h2', 'h3', 'h4', 'h5', 'h6'];
+//     if (!validHeadingLevels.includes(headingLevel)) {
+//         console.warn(`Invalid heading level "${headingLevel}" provided. Defaulting to h2.`);
+//         headingLevel = 'h2';
+//     }
 
-    containerElement.appendChild(article);
-}
+//     article.innerHTML = `
+//         <${headingLevel}>${project.title}</${headingLevel}>
+//         <img src="${project.image}" alt="${project.title}">
+//         <div class="project-details">
+//             <p class="project-description">${project.description}</p>
+//             <span class="project-year">c. ${project.year}</span>
+//         </div>
+//     `;
+
+//     containerElement.appendChild(article);
+// }
 
 export async function fetchGitHubData(username) {
     try {
@@ -125,6 +141,7 @@ export async function fetchGitHubData(username) {
             throw new Error(`Failed to fetch GitHub data: ${response.statusText}`);
         }
         const data = await response.json();
+        return data;
         return data;
     } catch (error) {
         console.error("Error fetching GitHub data:", error);
