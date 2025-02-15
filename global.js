@@ -15,6 +15,7 @@ const pages = [
     { url: 'projects/', title: 'Projects' },
     { url: 'CV/', title: 'CV' },
     { url: 'contact/', title: 'Contact' },
+    { url: 'meta/', title: 'Meta' },
     { url: 'https://github.com/kevinmyo', title: 'GitHub Profile' },
   ];
 
