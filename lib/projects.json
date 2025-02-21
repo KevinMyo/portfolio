@@ -6,10 +6,11 @@
       "description": "A project exploring interactive visualizations using JavaScript and D3.js."
     },
     {
-      "title": "Responsive Web Design",
+      "title": "Geospatial Visulizations",
       "year": 2024,
-      "image": "https://dsc106.com/labs/lab02/images/empty.svg",
-      "description": "A mobile-first website showcasing best practices in responsive design."
+      "image": "images/bikewatch_img.png",
+      "description": "An immersive, interactive map visualization of bike traffic in Boston area during different times of day.",
+      "url": "https://kevinmyo.github.io/bikewatching/"
     },
     {
       "title": "GitHub API Integration",
